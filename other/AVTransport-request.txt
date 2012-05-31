@@ -1,0 +1,13 @@
+POST /renderer/avTransport/control HTTP/1.1
+Host: 10.100.1.118:9080
+User-Agent: iPhoneOS/5.1.1, UPnP/1.0, MediaConnect/2.0
+Content-Length: 297
+Accept: */*
+Content-Type: text/xml; charset="utf-8"
+SOAPACTION: "urn:schemas-upnp-org:service:AVTransport:1#GetTransportInfo"
+Accept-Language: nl-nl
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+<?xml version="1.0"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:GetTransportInfo xmlns:u="urn:schemas-upnp-org:service:AVTransport:1"><InstanceID>0</InstanceID></u:GetTransportInfo></s:Body></s:Envelope>

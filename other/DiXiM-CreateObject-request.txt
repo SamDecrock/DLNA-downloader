@@ -1,0 +1,50 @@
+REQUEST:
+========
+
+POST /dms/control/ContentDirectory HTTP/1.1
+Content-Type: text/xml; charset="utf-8"
+SOAPACTION: "urn:schemas-upnp-org:service:ContentDirectory:1#CreateObject"
+Content-Length: 972
+HOST: 192.168.204.119:49239
+User-Agent: CyberGarage-HTTP/1.0
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+ <s:Body>
+  <u:CreateObject xmlns:u="urn:schemas-upnp-org:service:ContentDirectory:1">
+   <ContainerID>DLNA.ORG_AnyContainer</ContainerID>
+   <Elements>&lt;DIDL-Lite xmlns=&quot;urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:upnp=&quot;urn:schemas-upnp-org:metadata-1-0/upnp/&quot; xmlns:dlna=&quot;urn:schemas-dlna-org:metadata-1-0&quot;&gt;.&lt;item id=&quot;&quot; restricted=&quot;0&quot; parentID=&quot;DLNA.ORG_AnyContainer&quot;&gt;&lt;dc:title&gt;trim&lt;/dc:title&gt;&lt;upnp:class&gt;object.item.videoItem&lt;/upnp:class&gt;.&lt;res protocolInfo=&quot;*:*:video/quicktime:DLNA.ORG_PN=JPEG_SM&quot; dlna:resumeUpload=&quot;0&quot; &gt;&lt;/res&gt;&lt;/item&gt;&lt;/DIDL-Lite&gt;</Elements>
+  </u:CreateObject>
+ </s:Body>
+</s:Envelope>
+
+RESPONSE:
+=========
+
+HTTP/1.1 500 Internal Server Error
+server: Windows/5.1 UPnP/1.0 DiXiM/3.0
+date: Thu, 31 May 2012 19:21:18 GMT
+connection: close
+ext: 
+content-type: text/xml; charset="utf-8"
+content-length: 418
+
+
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"
+s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+<s:Body>
+<s:Fault>
+<faultcode>s:Client</faultcode>
+<faultstring>UPnPError</faultstring>
+<detail>
+<UPnPError xmlns="urn:schemas-upnp-org:control-1-0">
+<errorCode>712</errorCode>
+<errorDescription>Error</errorDescription>
+</UPnPError>
+</detail>
+</s:Fault>
+</s:Body>
+</s:Envelope>
+

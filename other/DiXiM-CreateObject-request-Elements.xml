@@ -1,0 +1,16 @@
+<DIDL-Lite
+	xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/"
+	xmlns:dlna="urn:schemas-dlna-org:metadata-1-0">.
+	
+	<item id="" restricted="0" parentID="DLNA.ORG_AnyContainer">
+		<dc:title>trim</dc:title>
+		<upnp:class>object.item.videoItem</upnp:class>
+		.
+		<res protocolInfo="*:*:video/quicktime:DLNA.ORG_PN=JPEG_SM" dlna:resumeUpload="0" ></res>
+	</item>
+</DIDL-Lite>
+
+
+<DIDL-Lite xmlns="urn:schemas-upnp-org:metadata-1-0/DIDL-Lite/"	xmlns:dc="http://purl.org/dc/elements/1.1/"	xmlns:upnp="urn:schemas-upnp-org:metadata-1-0/upnp/" xmlns:dlna="urn:schemas-dlna-org:metadata-1-0"><item id="" restricted="0" parentID="DLNA.ORG_AnyContainer"><dc:title>samson</dc:title><upnp:class>object.item.videoItem</upnp:class><res protocolInfo="http-get:*:application/x-dtcp1;DTCP1HOST=10.175.142.186;DTCP1PORT=8000;CONTENTFORMAT=video/mpeg:DLNA.ORG_PN=DTCP_AVC_TS_HD_EU_ISO;DLNA.ORG_OP=10;DLNA.ORG_CI=1;DLNA.ORG_FLAGS=01518000000000000000000000000000" duration="1:51:00.096">http://10.175.142.186:8080/mediaserver/download/0/rec.-7547186222670544892?datachunk=144384</res></item></DIDL-Lite>

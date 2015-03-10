@@ -1,7 +1,7 @@
 {
-  "name": "dlna-remote",
+  "name": "dlna-downloader",
   "version": "0.0.0",
   "dependencies": {
-    "step": ">= 0.0.3"
+    "node-ssdp-lite": "^0.2.0"
   }
 }

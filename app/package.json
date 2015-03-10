@@ -2,6 +2,8 @@
   "name": "dlna-downloader",
   "version": "0.0.0",
   "dependencies": {
-    "node-ssdp-lite": "^0.2.0"
+    "httpreq": "^0.4.6",
+    "node-ssdp-lite": "^0.2.0",
+    "xml2json": "^0.6.1"
   }
 }

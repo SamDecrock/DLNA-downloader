@@ -1,4 +1,4 @@
 DLNA-remote
 ===========
 
-Node.js application/library to control DLNA devices
+Node.js application to download DLNA content
